@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İdeal Kültür</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S&#x131;k Sorulan Sorular - Doğrudan Yayıncılık</title>
+  <meta name="description" content="KDY (Kitapyurdu Doğrudan Yayıncılık) ile kitaplarınızı basılı olarak ücretsiz şekilde yayınlayabilir, siz de kitapyurdu.com sayesinde milyonlarca okura hiçbir zahmete girmeden ulaşabilirsiniz." />
+  <meta name="keywords" content="kdy, kitapyurdu doğrudan yayıncılık, kitap basmak, kitap yayınlamak, doğrudan yayıncılık, kitabımı yayınlatmak istiyorum, kitabımı nasıl bastırabilirim" />
+  <meta name="author" content="Kitapyurdu" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:site_name" content="Kitapyurdu Doğrudan Yayıncılık (KDY)" />
+  <meta property="og:url" content="https://kdy.kitapyurdu.com" />
+  <meta property="og:title" content="Kitapyurdu Doğrudan Yayıncılık (KDY)" />
+  <meta property="og:image" content="https://kdy.kitapyurdu.com/img/og-image.png" />
+  <meta property="og:image:secure_url" content="https://kdy.kitapyurdu.com/img/og-image.png" />
+  <meta property="og:description" content="KDY (Kitapyurdu Doğrudan Yayıncılık) ile kitaplarınızı basılı olarak ücretsiz şekilde yayınlayabilir, siz de kitapyurdu.com sayesinde milyonlarca okura hiçbir zahmete girmeden ulaşabilirsiniz." />
+  <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//mc.yandex.ru" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+  <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com" />
+
+  <link href="/lib/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+  <link href="/lib/toastr/css/toastr.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+
+
+
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+          <a style="color: white;" href="index.html" class="brand">İdeal Kültür</a>
+        </div>
+        <div class="navbar-right">
+          <a href="ajanslar.html">Ajanslar</a>
+          <a href="sorular.html">Sık Sorulan Sorular</a>
+          <a href="https://www.idealkultur.com/register">Giriş Yap</a>
+        </div>
+      
+        <button class="navbar-toggle" id="navbar-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </nav>
+      
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="ajanslar.html">Ajanslar</a>
+        <a href="sorular.html">Sık Sorulan Sorular</a>
+        <a href="https://www.idealkultur.com/register">Giriş Yap</a>
+      </div>
+
+
+
+<div class="container">
+    <main role="main" class="pb-3">
+
+        <div class="container agency-list pr" >
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <div class="page-title" >
+                        Sıkça Sorulan Sorular
+
+                    </div>
+
+                    <div>
+                        <div id="dataTable_filter" class="float-left col-md-6 offset-md-3 mt-2 mb-2">
+                            <div class="input-group input-group-lg ">
+                                <input id="text" name="text"  type="search"  class="form-control"  style="height:48px;margin:0 0 30px 0;" placeholder="Arama" aria-label="Arama" aria-describedby="basic-addon2"       />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <ul class="tabs-nav cc" >
+                        <li class="libg"> 
+                            <a style="padding:10px; border: 1px solid black;" onclick="faqSelect('Baskı')" rel="nofollow">Baskı</a>
+                        </li>
+
+
+                        <li class="libg"> 
+                            <a style="padding:10px; border: 1px solid black;" onclick="faqSelect('Kitap')" rel="nofollow">Kitap</a>
+                        </li>
+
+
+                        <li class="libg"> 
+                            <a style="padding:10px; border: 1px solid black;" onclick="faqSelect('Başvuru')" rel="nofollow">Başvuru</a>
+                        </li>
+
+
+                        <li class="libg"> 
+                            <a style="padding:10px; border: 1px solid black;" onclick="faqSelect('Telif')" rel="nofollow">Telif</a>
+                        </li>
+
+
+                    </ul>
+
+                    <div id="dvdata"> </div>
+
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="survey-question">
+
+            <h2 class="question">Çeşitli e-kitap yayımlayan mecralarda yayımlanan bir kitap KDY'de de yayımlanabilir mi?</h2>
+            <p class="answer" style="display: none;">
+              Hayır, bunun için kitabınız orada satıştan kaldırılması ve bu eserin yayınlanmasıyla ilgili yaptığınız sözleşmelerin feshedilmiş olması gerekiyor.
+            </p>
+
+            
+          </div>
+
+          
+
+    </main>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+
+
+
+</html>
